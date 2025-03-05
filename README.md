@@ -55,14 +55,14 @@ La API gestiona la entidad 'Personas', permitiendo operaciones CRUD sobre la mis
 
 ## Configuración y ejecución
 
-Para ejecutar este proyecto, asegúrate de tener Node.js instalado y de usar `pnpm` como gestor de paquetes. Sigue estos pasos para configurar el entorno:
+Para ejecutar este proyecto, asegúrate de tener Node.js instalado y de usar `npm` como gestor de paquetes. Sigue estos pasos para configurar el entorno:
 
 1. Clona el repositorio.
-2. Navega al directorio del proyecto y ejecuta `pnpm install` para instalar las dependencias.
+2. Navega al directorio del proyecto y ejecuta `npm install` para instalar las dependencias.
 3. Asegúrate de configurar la base de datos MySQL y ajustar los parámetros de conexión en el archivo de configuración.
-4. Inicia el servidor con `pnpm start` (asegúrate de tener definido el script de inicio adecuado en tu `package.json`).
+4. Inicia el servidor con `npm start` (asegúrate de tener definido el script de inicio adecuado en tu `package.json`).
 5. El servidor estará corriendo en `http://localhost:3000`.
 
 ## Notas de desarrollo
 
-Este proyecto es parte de las primeras etapas de desarrollo de "Agape App" y se utiliza principalmente para fines de demostración y pruebas iniciales. En futuras versiones se planea expandir la funcionalidad, incluyendo más entidades y características complejas para mejorar la gestión de inventarios.
+Este proyecto es parte de las primeras etapas de desarrollo de "SysPos" y se utiliza principalmente para fines de demostración y pruebas iniciales. En futuras versiones se planea expandir la funcionalidad, incluyendo más entidades y características complejas para mejorar la gestión de inventarios.
